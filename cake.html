@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>เค้ก</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e6aee6;
+    }
+
+    header {
+      background-color:  #d4a4f3;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #2d2d2d;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #99e0fc;
+      color: #222;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2em;
+      margin: 30px 0 10px;
+      color: #333;
+    }
+
+    .food-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 0 20px 50px;
+    }
+
+    .food-item {
+      background: #fff9e6;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      width: 220px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .food-item:hover {
+      transform: translateY(-8px);
+    }
+
+    .food-image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .food-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .food-category {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 5px;
+    }
+
+    .food-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .food-price {
+      font-size: 1.1rem;
+      color: #2c7a7b;
+      font-weight: bold;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      color: #2d2d2d;
+    }
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .menu-bar {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .menu-logo img {
+      height: 50px;
+      margin-right: 20px;
+    }
+
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 0 15px;
+      font-size: 14px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .menu-item img {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 5px;
+    }
+
+    .menu-container {
+      display: flex;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⋰˚☆  ยินดีต้อนรับสู่ร้านอาหาร  ⋰˚☆</h1>
+  </header>
+
+  <div class="menu-bar">
+  <div class="menu-logo">
+    <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\โลโก้.jpg" alt="7-Eleven">
+  </div>
+  <div class="menu-container">
+    <a href="#" class="menu-item">
+      <img src="c:\Users\hp\Downloads\หน้าแรก-removebg-preview.png">
+      <span>หน้าแรก</span>
+    </a>
+    <a href="#" class="menu-item">
+      <img src="c:\Users\hp\Downloads\ช้อนส้อม-removebg-preview (1).png">
+      <span>เมนู</span>
+    </a>
+    <a href="#" class="menu-item">
+      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ของที่ระลึก1-removebg-preview.png">
+      <span>ของที่ระลึก</span>
+    </a>
+    <a href="#" class="menu-item">
+      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\โปรโมชั่น1-removebg-preview.png">
+      <span>โปรโมชั่น</span>
+    </a>
+    <a href="#" class="menu-item">
+      <img src="c:\Users\hp\Downloads\บัตร1-removebg-preview.png">
+      <span>บัตรสมาชิก</span>
+    </a>
+    <a href="#" class="menu-item">
+      <img src="c:\Users\hp\Downloads\ที่อยู่ติดต่อ-removebg-preview.png">
+      <span>ที่อยู่ติดต่อ</span>
+    </a>
+  </div>
+</div>
+
+  <nav>
+   <a href="Foodlist.html">🍚 อาหาร</a>
+    <a href="dessert.html">🍨 ขนมหวาน</a>
+    <a href="cake.html">🎂 เค้ก</a>
+    <a href="fruit.html">🍇 ผลไม้</a>
+    <a href="drink.html">🍹 เครื่องดื่ม</a>
+  </nav>
+
+<body>
+<h1>เค้ก</h1>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กนมสดช็อกโกแลต.jpg" alt="เค้กนมสดช็อกโกแลต ">
+    <div class="food-info">
+      <div class="food-category">เค้กนมสดช็อกโกแลต </div>
+      <div class="food-name">เค้กนมสดช็อกโกแลต </div>
+      <div class="food-price">ราคา 120 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กน้ำผึ้ง.jpg" alt="เค้กน้ำผึ้ง">
+    <div class="food-info">
+      <div class="food-category">เค้กน้ำผึ้ง</div>
+      <div class="food-name">เค้กน้ำผึ้ง</div>
+      <div class="food-price">ราคา 150 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กนูเทลล่า.jpg" alt="เค้กนูเทลล่า">
+    <div class="food-info">
+      <div class="food-category">เค้กนูเทลล่า</div>
+      <div class="food-name">เค้กนูเทลล่า</div>
+      <div class="food-price">ราคา 125 บาท</div>
+    </div>
+  </div>
+
+   <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\เค้กส้ม.jfif" alt="เค้กส้ม">
+    <div class="food-info">
+      <div class="food-category">เค้กส้ม</div>
+      <div class="food-name">เค้กส้ม</div>
+      <div class="food-price">ราคา 135 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กมะพร้าว.webp" alt="เค้กมะพร้าวอ่อน">
+    <div class="food-info">
+      <div class="food-category">เค้กมะพร้าวอ่อน</div>
+      <div class="food-name">เค้กมะพร้าวอ่อน</div>
+      <div class="food-price">ราคา 155 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\คารา.jfif" alt="เค้กคาราเมล ">
+    <div class="food-info">
+      <div class="food-category">เค้กคาราเมล </div>
+      <div class="food-name">เค้กคาราเมล </div>
+      <div class="food-price">ราคา 160 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กแบล็กฟอเรสต์.jpg" alt="เค้กแบล็กฟอเรสต์ ">
+    <div class="food-info">
+        <div class="food-category">เค้กแบล็กฟอเรสต์ </div>
+      <div class="food-name">เค้กแบล็กฟอเรสต์ </div>
+      <div class="food-price">ราคา 165 บาท</div>
+    </div>
+</div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กโยเกิร์ตสตรอว์เบอร์รี.jpg" alt="เค้กโยเกิร์ตสตรอว์เบอร์รี">
+    <div class="food-info">
+      <div class="food-category">เค้กโยเกิร์ตสตรอว์เบอร์รี</div>
+      <div class="food-name">เค้กโยเกิร์ตสตรอว์เบอร์รี</div>
+      <div class="food-price">ราคา 155 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ชีสเค้ก.jpg" alt="ชีสเค้ก ">
+    <div class="food-info">
+      <div class="food-category">ชีสเค้ก </div>
+      <div class="food-name">ชีสเค้ก </div>
+      <div class="food-price">ราคา 150 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กแอปเปิ้ล.jpg" alt="เค้กแอปเปิ้ล">
+    <div class="food-info">
+      <div class="food-category">เค้กแอปเปิ้ล</div>
+      <div class="food-name">เค้กแอปเปิ้ล</div>
+      <div class="food-price">ราคา 145 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กถั่วพิสตาชิโอ้.jfif" alt="เค้กถั่วพิสตาชิโอ้">
+    <div class="food-info">
+      <div class="food-category">เค้กถั่วพิสตาชิโอ้</div>
+      <div class="food-name">เค้กถั่วพิสตาชิโอ้</div>
+      <div class="food-price">ราคา 125 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\เค้กชาเขียว.webp" alt="เค้กชาเขียว">
+    <div class="food-info">
+      <div class="food-category">เค้กชาเขียว</div>
+      <div class="food-name">เค้กชาเขียว</div>
+      <div class="food-price">ราคา 155 บาท</div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+<footer style="background-color: #e96787; color: white; padding: 40px 20px; font-family: sans-serif;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: auto;">
+
+    <!-- เกี่ยวกับเรา -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\โลโก้.jpg" style="width: 50px; margin-bottom: 10px;">
+      <h3>เกี่ยวกับเรา</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li>รู้จักร้านอาหาร</li>
+        <li>ร่วมงานกับเรา ร้านอาหาร</li>
+        <li>ร่วมธุรกิจกับร้านอาหาร</li>
+        <li>ก่อตั้งเมื่อ 25 มีนาคม 2569</li>
+        <li>เวลาเปิด-ปิด 08:00-20:00 หยุดทุกวันอาทิตย์</li>
+        <li>ที่อยู่ร้าน 249/23 ถนนเพลินจิต แขวงมีนบุรี เขตมีนบุรี กรุงเทพ 10510</li>
+      </ul>
+    </div>
+
+    <!-- ช่วยเหลือ -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3>ช่วยเหลือ</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li>คำถามที่พบบ่อย</li>
+        <li>คอลเซ็นเตอร์ 02-452-5319</li>
+        <li>บริการสมาชิก 02-741-1537</li>
+        <li>ติดต่อเรา</li>
+      </ul>
+    </div>
+
+    <!-- ติดตามเรา -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3>ติดตามเรา</h3>
+      <div style="margin-bottom: 10px;">
+        <span style="margin-right: 10px;">📘</span>
+        <span style="margin-right: 10px;">🐦</span>
+        <span style="margin-right: 10px;">📺</span>
+        <span style="margin-right: 10px;">📸</span>
+        <span>💬</span>
+      </div>
+      <p>รับโปรโมชั่นและดีลพิเศษก่อนใคร</p>
+      <form>
+        <input type="email" placeholder="ใส่อีเมลของคุณ" style="padding: 8px; border: none; border-radius: 5px;">
+        <button style="padding: 8px 12px; border: none; background: white; color: #006241; border-radius: 5px;">เข้าร่วม</button>
+      </form>
+    </div>
+
+   <!-- ดาวน์โหลดแอป -->
+<!-- ต้องแนบลิงก์ Font Awesome ก่อนใช้งาน -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+  <h3>ดาวน์โหลดแอป 7-Eleven</h3>
+  <img src="https://cdn-icons-png.freepik.com/512/4299/4299774.png" alt="QR Code" style="width: 100px; margin-bottom: 10px;">
+
+  <div style="display: flex; gap: 20px; align-items: center; font-size: 32px;">
+    <!-- App Store Icon -->
+    <a href="https://apps.apple.com/th/app/7-eleven/id123456789" target="_blank" style="color: black;">
+      <i class="fab fa-apple"></i>
+    </a>
+
+    <!-- Google Play Icon -->
+    <a href="https://play.google.com/store/apps/details?id=com.seveneleven.app" target="_blank" style="color: #34A853;">
+      <i class="fab fa-google-play"></i>
+    </a>
+
+    <!-- AppGallery Icon (ใช้ generic store icon เพราะ Font Awesome ไม่มี Huawei โดยตรง) -->
+    <a href="https://appgallery.huawei.com/#/app/C1234567" target="_blank" style="color: #e53935;">
+      <i class="fas fa-store"></i>
+    </a>
+  </div>
+</div>
+
+
+</body>
+</html>
